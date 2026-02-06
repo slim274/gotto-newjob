@@ -1177,6 +1177,12 @@ Bootstrap 5 HTML CSS Template
             </section>
         </main>
 
+              <p id="deploy-date"></p>
+<script>
+  const today = new Date();
+  document.getElementById('deploy-date').innerText = "Deployed on: " + today.toLocaleDateString();
+</script>
+
         <footer class="site-footer">
             <div class="container">
                 <div class="row">
@@ -1312,6 +1318,9 @@ Bootstrap 5 HTML CSS Template
                 </div>
             </div>
         </footer>
+
+  
+
 
         <!-- JAVASCRIPT FILES -->
         <script src="js/jquery.min.js"></script>
