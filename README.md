@@ -19,3 +19,5 @@ This is a static HTML/CSS/JS website for Gotto Job, a job listing platform. The 
   document.getElementById('deploy-date').innerText = 
     "Deployed on: " + today.toLocaleDateString();
 </script>
+
+
